@@ -6,11 +6,11 @@ from util import *
 
 
 class FunctionNames:
-    MOVE_TO_POINT = "MoveToPoint"
-    MOVE_DISTANCE = "MoveDistance"
-    TURN_TO_POINT = "TurnToPoint"
-    TURN_TO_HEADING = "TurnToHeading"
-    SET_POSE = "SetPose"
+    MOVE_TO_POINT = "chassis.moveToPoint"
+    MOVE_DISTANCE = "chassis.moveDistance"
+    TURN_TO_POINT = "chassis.turnToPoint"
+    TURN_TO_HEADING = "chassis.turnToHeading"
+    SET_POSE = "chassis.setPose"
     DELAY = "pros::delay"
 
 
