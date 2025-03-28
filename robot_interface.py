@@ -9,6 +9,7 @@ import sys
 class RobotInterface:
     WINDOW_SIZE: int = 700
     FIELD_WIDTH: float = 3600 / 25.6 + 4
+    TILE_SIZE = 3600 / 6 / 25.4
     PX_TO_IN = WINDOW_SIZE / FIELD_WIDTH
     BEFORE_TRANS: int = 128
     AFTER_TRANS: int = 156
